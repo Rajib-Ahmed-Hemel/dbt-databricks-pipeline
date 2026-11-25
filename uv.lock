@@ -4,12 +4,12 @@ requires-python = ">=3.14"
 
 [[package]]
 name = "dbt"
-version = "2.0.11"
+version = "2.0.13"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "mashumaro", extra = ["msgpack"] },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/30/85/9c3f3ee2f58a182b89dd1c308af5f10634fe81645c9c0d35aa10338baa4a/dbt-2.0.11.tar.gz", hash = "sha256:8e8ce5d08237137667b24f9a1331a9a480b9c6b41f76c0bfe223ec1106a36371", size = 3291, upload-time = "2026-11-03T20:27:01.627Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/58/c3/9dec1603fb0ee2bbda80d65785448f48de0f9b916575ce91eca376570540/dbt-2.0.13.tar.gz", hash = "sha256:e874f7eef50ef7e5f5443e443ced2ce319987c780f838f9e4055d6b105d290f6", size = 3292, upload-time = "2026-11-24T19:29:26.536Z" }
 
 [[package]]
 name = "dbt-databricks-pipeline"
@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "dbt", specifier = ">=2.0.11" }]
+requires-dist = [{ name = "dbt", specifier = ">=2.0.12" }]
 
 [[package]]
 name = "mashumaro"
